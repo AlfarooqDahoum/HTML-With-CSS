@@ -1,7 +1,7 @@
 *{
 box-sizing: border-box;
 margin: 0;
-padding: 0;
+padding: 5;
 }
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -36,14 +36,21 @@ nav ul li a{
     color: goldenrod;
     font-size: 18px;
 }
-#introDuction{
+.introDuction{
     min-height: 500px;
-    background-image: url(./wp.jpg);
+    background-image: url(./images/giphy.gif);
+    background-size: cover;
+    background-repeat: repeat;
     text-align: center;
     color: #ffffff;
 }
-#introDuction h1{
-    margin-top: 100px;
+
+.introDuction h1{
+    margin-top: 125px;
     font-size: 55px;
     margin-bottom: 10px;
+}
+.ex1{
+    width: 850px;
+    height: 400px;
 }
